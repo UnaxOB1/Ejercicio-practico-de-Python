@@ -31,3 +31,11 @@ notification = f'You have {python_number} unread message/s!'
 
 #9
 print('hello world')
+
+#10
+foreign_string = 'La próxima vez, dile hola de mi parte.'
+
+query = foreign_string.find('hola')
+
+foreign_string = foreign_string.replace('hola','adiós')
+
